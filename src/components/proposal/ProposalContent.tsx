@@ -203,6 +203,7 @@ const ProposalContent = () => {
             { icon: "⚡", title: "Performance", tools: "JMeter / Gatling + Cloud Load Agents" },
             { icon: "🤝", title: "Collaboration", tools: "Confluence + Jira + Miro" },
             { icon: "🔄", title: "CI/CD", tools: "Jenkins / GitLab CI with Quality Gates" },
+            { icon: "AI", title: "AI", tools: "Sofia with Domain enabled capabilities for test planning" },
           ].map((item, index) => (
             <div key={index} className="bg-muted/50 rounded-xl p-4 border border-border/50 hover:shadow-soft transition-all">
               <span className="text-2xl mb-2 block">{item.icon}</span>
