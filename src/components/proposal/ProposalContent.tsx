@@ -23,7 +23,7 @@ const ProposalContent = () => {
         <DataTable
           headers={["Challenge", "Opportunity"]}
           rows={[
-            ["Inconsistent QA processes across locations", "Standardized framework reducing release delays by 40%+"],
+            ["Inconsistent QA processes across locations", "Standardized framework unified, avoids delays and faster release with consistency"],
             ["Siloed automation efforts", "Reusable test assets saving 30% regression effort"],
             ["Variable domain knowledge", "Domain-led QA reducing production defects by 60%"],
             ["Distributed team coordination overhead", "Central governance with local autonomy"],
@@ -255,7 +255,7 @@ const ProposalContent = () => {
             { title: "Access", desc: "To all engineering/practice leaders across locations" },
             { title: "Baseline Period", desc: "30 days for assessment without pressure for changes" },
             { title: "Joint Launch Communication", desc: "Co-signed email/video introducing the initiative" },
-            { title: "Initial Investment", desc: "Approval for Phase 1 tooling and assessment resources" },
+            { title: "Initial Investment", desc: "Assessment resources" },
           ].map((item, index) => (
             <li key={index} className="text-foreground font-body">
               <span className="font-semibold">{item.title}:</span> {item.desc}
@@ -280,12 +280,12 @@ const ProposalContent = () => {
       {/* Investment & ROI */}
       <ProposalSection id="investment-roi" number="9" title="Investment & ROI Projection">
         <DataTable
-          headers={["Investment Area", "Year 1 Cost", "Expected Benefit"]}
+          headers={["Investment Area", "Expected Benefit"]}
           rows={[
-            ["Tool Standardization", "$XX,XXX", "30% efficiency gain in test creation"],
-            ["Training & Enablement", "$XX,XXX", "40% faster onboarding, 25% higher retention"],
-            ["Governance Overhead", "$X,XXX", "50% reduction in cross-location misalignment"],
-            ["Total", "$XXX,XXX", "Estimated ROI: 3.5x (defect reduction + efficiency gains)"],
+            ["Tool Standardization",  "30% efficiency gain in test creation"],
+            ["Training & Enablement",  "40% faster onboarding, 25% higher retention"],
+            ["Governance Overhead",  "50% reduction in cross-location misalignment"],
+            ["Total",  "Estimated ROI: 3.5x (defect reduction + efficiency gains)"],
           ]}
         />
         <p className="mt-4 text-muted-foreground font-body italic text-sm">
